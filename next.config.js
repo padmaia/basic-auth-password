@@ -1,3 +1,3 @@
-const withTM = require('@vercel/edge-functions-ui/transpile')()
+const withTM = require("@vercel/edge-functions-ui/transpile")();
 
-module.exports = withTM()
+module.exports = withTM({ swcMinify: true });
